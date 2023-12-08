@@ -24,6 +24,8 @@
 		FF778CEE26314A35004F4C6A /* 多线程相关.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF778CED26314A35004F4C6A /* 多线程相关.swift */; };
 		FF8806252B22AE7C00AF7A17 /* 重要知识.md in Resources */ = {isa = PBXBuildFile; fileRef = FF8806242B22AE7C00AF7A17 /* 重要知识.md */; };
 		FF8806272B22AE8600AF7A17 /* 随手记.md in Resources */ = {isa = PBXBuildFile; fileRef = FF8806262B22AE8600AF7A17 /* 随手记.md */; };
+		FF88062B2B231ED800AF7A17 /* 知识体系.xmind in Resources */ = {isa = PBXBuildFile; fileRef = FF8806292B231ED800AF7A17 /* 知识体系.xmind */; };
+		FF88062C2B231ED800AF7A17 /* 开发中遇到的重难点.xmind in Resources */ = {isa = PBXBuildFile; fileRef = FF88062A2B231ED800AF7A17 /* 开发中遇到的重难点.xmind */; };
 		FF9FEA3525FAFCC600088DB8 /* Chain Of Responsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FEA3425FAFCC600088DB8 /* Chain Of Responsibility.swift */; };
 		FF9FEA3825FAFCE800088DB8 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FEA3725FAFCE800088DB8 /* Command.swift */; };
 		FF9FEA3B25FAFCF700088DB8 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FEA3A25FAFCF700088DB8 /* Interpreter.swift */; };
@@ -85,6 +87,8 @@
 		FF8806212B22AD9D00AF7A17 /* TradingLive.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TradingLive.md; sourceTree = "<group>"; };
 		FF8806242B22AE7C00AF7A17 /* 重要知识.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "重要知识.md"; sourceTree = "<group>"; };
 		FF8806262B22AE8600AF7A17 /* 随手记.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "随手记.md"; sourceTree = "<group>"; };
+		FF8806292B231ED800AF7A17 /* 知识体系.xmind */ = {isa = PBXFileReference; lastKnownFileType = file; path = "知识体系.xmind"; sourceTree = "<group>"; };
+		FF88062A2B231ED800AF7A17 /* 开发中遇到的重难点.xmind */ = {isa = PBXFileReference; lastKnownFileType = file; path = "开发中遇到的重难点.xmind"; sourceTree = "<group>"; };
 		FF95EC5E25F9B01100204968 /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
 		FF999F5325EB86F800C55441 /* 网络TCP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "网络TCP.md"; sourceTree = "<group>"; };
 		FF9DEFEC26E89442007220A7 /* 编译优化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编译优化.md"; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 		FF0182DA25E5FB96006268A4 /* WorkingIssues */ = {
 			isa = PBXGroup;
 			children = (
+				FF8806282B231EA700AF7A17 /* 知识框架 */,
 				FF8806232B22AE6300AF7A17 /* 随手记 */,
 				FF8806222B22AE2C00AF7A17 /* 高级开发 */,
 				FFA0901426EF4400002FAFA0 /* 解决Timer循环引用 */,
@@ -238,6 +243,15 @@
 				FF8806262B22AE8600AF7A17 /* 随手记.md */,
 			);
 			path = "随手记";
+			sourceTree = "<group>";
+		};
+		FF8806282B231EA700AF7A17 /* 知识框架 */ = {
+			isa = PBXGroup;
+			children = (
+				FF88062A2B231ED800AF7A17 /* 开发中遇到的重难点.xmind */,
+				FF8806292B231ED800AF7A17 /* 知识体系.xmind */,
+			);
+			path = "知识框架";
 			sourceTree = "<group>";
 		};
 		FF9DEFEB26E893CE007220A7 /* swift编译优化 */ = {
@@ -419,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF88062C2B231ED800AF7A17 /* 开发中遇到的重难点.xmind in Resources */,
 				FF0182E825E5FB96006268A4 /* LaunchScreen.storyboard in Resources */,
 				FF8806252B22AE7C00AF7A17 /* 重要知识.md in Resources */,
 				FF4ADCDA260195B70014B335 /* XNU.png in Resources */,
@@ -428,6 +443,7 @@
 				FF0182E325E5FB96006268A4 /* Main.storyboard in Resources */,
 				FFDDC757262EC00300A7F127 /* dyld3启动流程.md in Resources */,
 				FF8806272B22AE8600AF7A17 /* 随手记.md in Resources */,
+				FF88062B2B231ED800AF7A17 /* 知识体系.xmind in Resources */,
 				FFDDC758262EC00300A7F127 /* Mach-O.md in Resources */,
 				FF513A01260DD3CA0025BA8F /* iOS知识.rtf in Resources */,
 			);
