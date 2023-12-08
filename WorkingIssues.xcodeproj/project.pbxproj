@@ -159,7 +159,6 @@
 				FFA0901426EF4400002FAFA0 /* 解决Timer循环引用 */,
 				FFA0901226EF2EF7002FAFA0 /* 每日一问 */,
 				FF9DEFEB26E893CE007220A7 /* swift编译优化 */,
-				FF95EC5E25F9B01100204968 /* 设计模式.md */,
 				FF250BD025FEF7CE00FB9FCC /* 网络HTTP.md */,
 				FF999F5325EB86F800C55441 /* 网络TCP.md */,
 				FF0769572604A153003F2BFC /* 一些常用的、专业的术语.md */,
@@ -183,7 +182,7 @@
 				FFF1CF802623F1DB00180D19 /* App启动优化 */,
 				FF49C19E2609BA8A008906E6 /* App签名机制 */,
 				FF4ADCD82601954A0014B335 /* App完整的启动过程 */,
-				FF9FEA3025FAFC1700088DB8 /* DesignDemol */,
+				FF9FEA3025FAFC1700088DB8 /* 设计模式 */,
 				FF0182E625E5FB96006268A4 /* LaunchScreen.storyboard */,
 				FF0182E125E5FB96006268A4 /* Main.storyboard */,
 			);
@@ -249,14 +248,15 @@
 			path = "swift编译优化";
 			sourceTree = "<group>";
 		};
-		FF9FEA3025FAFC1700088DB8 /* DesignDemol */ = {
+		FF9FEA3025FAFC1700088DB8 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				FF95EC5E25F9B01100204968 /* 设计模式.md */,
 				FF9FEA3325FAFC8400088DB8 /* 结构型Demol */,
 				FF9FEA3225FAFC5D00088DB8 /* 创建型Demol */,
 				FF9FEA3125FAFC4600088DB8 /* 行为型Demol */,
 			);
-			path = DesignDemol;
+			path = "设计模式";
 			sourceTree = "<group>";
 		};
 		FF9FEA3125FAFC4600088DB8 /* 行为型Demol */ = {
